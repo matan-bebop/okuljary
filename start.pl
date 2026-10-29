@@ -9,7 +9,7 @@ file_search_path(pryhoda, "../pryhoda/pryhoda/").
 
 :- [vdoma]. % Другий пріорітет даємо варіантам дій тощо від автора
 
-:- пригодове([dveri, konteiner, repl, parser]).
+:- пригодове([dveri, konteiner, cron, repl, parser]).
 
 :- [pryhoda(fin)].
 
