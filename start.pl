@@ -7,7 +7,9 @@ file_search_path(pryhoda, "../pryhoda/pryhoda/").
 
 :- [pryhoda(init)].
 
-:- [vdoma]. % Другий пріорітет даємо варіантам дій тощо від автора
+:- [zashkvar]. % можна/3 що блокує дії у зашкварі
+:- [vdoma]. % Крім виключень у Пригодовому init.pl пріорітет діям звідси
+:- [heroj]. % а тоді звідси
 
 :- пригодове([dveri, konteiner, cron, repl, parser]).
 
