@@ -11,7 +11,7 @@ file_search_path(pryhoda, "../pryhoda/pryhoda/").
 :- [vdoma]. % Крім виключень у Пригодовому init.pl пріорітет діям звідси
 :- [heroj]. % а тоді звідси
 
-:- пригодове([dveri, konteiner, cron, repl, parser]).
+:- пригодове([chytannja, konteiner, cron, repl, parser]).
 
 :- [pryhoda(fin)].
 
